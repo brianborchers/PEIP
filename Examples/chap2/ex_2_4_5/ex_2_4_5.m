@@ -230,3 +230,28 @@ xlabel('m_2 (m/s)')
 ylabel('m_3 (m/s^2)')
 bookfonts
 disp('displaying projections of monte-carlo models (fig 4)');
+
+%q-q plots of parameters, demonstrating their normal distributions
+figure(5)
+clf
+
+
+subplot(3,1,1)
+qqplot(mmc(:,1))
+ylabel('Quantiles, m_1')
+xlabel('Quantiles, Standard Normal')
+bookfonts
+
+
+subplot(3,1,2)
+qqplot(mmc(:,2))
+ylabel('Quantiles, m_2')
+xlabel('Quantiles, Standard Normal')
+bookfonts
+
+
+subplot(3,1,3)
+qqplot(mmc(:,3))
+ylabel('Quantiles, m_3')
+xlabel('Quantiles, Standard Normal')
+bookfonts
