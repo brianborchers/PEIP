@@ -11,7 +11,7 @@ randn('state',0);
 global x;
 global y;
 global sigma;
-global step;
+global stepsize;
 
 disp('Note: This example will take several minutes to run on most computers')
 
@@ -30,7 +30,7 @@ BURNIN=100000;
 %number of posterior distribution samples
 N=4100000;
 %MVN step size
-step = 0.005*ones(4,1);
+stepsize = 0.005*ones(4,1);
 
 % We assume flat priors here
 %% initialize model at a random point on [-1,1]
@@ -81,7 +81,7 @@ disp(['Displaying the autocorrelation of individual parameters before' ...
 %   %sample the posterior here
 %   for t = 2:N,
 %       %calculate a candidate model
-%    c=m(:,t-1)+randn(4,1).*step;
+%    c=m(:,t-1)+randn(4,1).*stepsize;
 %       %calculate acceptance probability for c,m(:,t-1)
 %       lnprobacc=getlnprobacc(m(:,t-1),c,x,y,sigma);
 %       if log(rand) < lnprobacc

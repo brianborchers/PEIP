@@ -10,6 +10,6 @@
 % are closely tied to each other.
 %
 function lr=logproposal(x,y)
-global step
+global stepsize
 
-lr=(-1/2)*sum((x-y).^2./step.^2);
+lr=(-1/2)*sum((x-y).^2./stepsize.^2);

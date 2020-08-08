@@ -5,11 +5,11 @@
 %
 %
 % For this problem, we'll use a multivariate normal generator, with 
-% standard deviations specified by the vector step.
+% standard deviations specified by the vector stepsize.
 
 % Note that logproposal.m and generate.m
 % are closely tied to each other.
 %
 function y=generate(x)
-global step
-y=x+step.*randn(4,1);
+global stepsize
+y=x+stepsize.*randn(4,1);
