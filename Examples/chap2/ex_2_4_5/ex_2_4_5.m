@@ -255,3 +255,4 @@ qqplot(mmc(:,3))
 ylabel('Quantiles, m_3')
 xlabel('Quantiles, Standard Normal')
 bookfonts
+disp('displaying QQ plots of monte-carlo models (fig 5)');
