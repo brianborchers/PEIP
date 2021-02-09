@@ -149,11 +149,10 @@ subplot(1,3,3)
 bookfonts
 plot(mmc(:,2),mmc(:,3),'k*')
 xlabel('m_2 (m/s)')
-ylabel('m_3 (m/^2)')
+ylabel('m_3 (m/s^2)')
 bookfonts
 
 disp('Displaying Projections of 1000 Monte-Carlo models (fig 4)')
-
 
 
 %
