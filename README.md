@@ -1,5 +1,5 @@
 # PEIP
-MATLAB code for examples and exercises for the 3rd edition of Parameter Estimation and Inverse Problems.  For more information about the book, including a lsit of errata, see 
+MATLAB code for examples and exercises for the 3rd edition of Parameter Estimation and Inverse Problems.  For more information about the book, including a list of errata, see 
   https://sites.warnercnr.colostate.edu/aster/2015/08/27/parameter-estimation-and-inverse-problems/
 
 This repository contains MATLAB code for the 3rd edition of "Parameter Estimation and Inverse Problems" (2018)
