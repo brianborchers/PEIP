@@ -195,5 +195,5 @@ end
 % Now, transpose to get L.
 L=LT';
 
-% save what will be needed for the next example script (ex_6_4b)
-save ex_6_4_30000.mat G L tt mtrue d
+% save what will be needed for the next example script (ex_6_3b)
+save ex_6_3_30000.mat G L tt mtrue d

@@ -21,7 +21,7 @@ global d;
 global alpha;
 
 % Load in the problem data.
-load ex_6_4_30000.mat
+load ex_6_3_30000.mat
 
 % Calculate some stuff not stored in the file.
 GT=G';
@@ -164,5 +164,5 @@ ylabel('Computed Values of R_{m} Diagonal');
 bookfonts
 
 % save the results for later analysis if desired
-%save workspace_ex_6_4c.mat
+%save workspace_ex_6_3c.mat
 

@@ -2,7 +2,7 @@
 % from Parameter Estimation and Inverse Problems, 3rd edition, 2018
 % by R. Aster, B. Borchers, C. Thurber
 %
-% This script produces the L-curve and GCV function for Example 6.4 for
+% This script produces the L-curve and GCV function for Example 6.3 for
 
 % make sure we have a clean environment
 clear
@@ -18,12 +18,12 @@ global L;
 global alpha;
 
 % Load in the problem data.  
-load ex_6_4_30000.mat
+load ex_6_3_30000.mat
 
 % Setup G' and L';
 
 % Load in the problem data.  
-load ex_6_4_30000.mat
+load ex_6_3_30000.mat
 
 % Setup G' and L';
 GT=G';
@@ -73,5 +73,5 @@ xlabel('Regularization Parameter \alpha');
 ylabel('g(\alpha)');
 bookfonts
 print -deps2 c6fgcvstoch.eps
-% save what will be needed for the next example script (ex_6_4c)
-save workspace_ex_6_4b.mat
+% save what will be needed for the next example script (ex_6_3c)
+save workspace_ex_6_3b.mat
