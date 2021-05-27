@@ -1,4 +1,4 @@
-% Example 9.2. Computes the difference between the model described by p and the collected data
+% Example 9.2. Computes the weighted residual for the model described by p
 % from Parameter Estimation and Inverse Problems, 3rd edition, 2018
 % by R. Aster, B. Borchers, C. Thurber
 %
