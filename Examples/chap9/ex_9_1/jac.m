@@ -1,5 +1,5 @@
-% Computes the weighted Jacobian of fun for the model p
 % Example 9.1
+% Computes the weighted Jacobian of fun for the model p
 % from Parameter Estimation and Inverse Problems, 3rd edition, 2018
 % by R. Aster, B. Borchers, C. Thurber
 % 

@@ -1,3 +1,4 @@
+% Example 7.2
 % Given an image, perform a type-II discrete cosine transform of
 % the image, and perform hard threshholding.  Then invert the DCT and
 % return the resulting image.

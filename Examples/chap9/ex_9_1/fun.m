@@ -1,5 +1,6 @@
+% Example 9.1
 % Computes the weighted residual for the model p
-% Example 9.1 from Parameter Estimation and Inverse Problems, 3rd edition, 2018
+% Parameter Estimation and Inverse Problems, 3rd edition, 2018
 % by R. Aster, B. Borchers, C. Thurber
 %
 % fvec=fun(p)
