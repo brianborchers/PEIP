@@ -1,4 +1,5 @@
-% this routine will return the true source
+% Example 7.4
+% This routine will return the true source
 % history for the Skaggs and Kabala paper [reference 147 or 148].
 % from Parameter Estimation and Inverse Problems, 3rd edition, 2018
 % by R. Aster, B. Borchers, C. Thurber

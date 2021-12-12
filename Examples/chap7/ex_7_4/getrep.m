@@ -1,3 +1,4 @@
+% Example 7.4
 % This routine will create an array of discretized representers
 % from Parameter Estimation and Inverse Problems, 3rd edition, 2018
 % by R. Aster, B. Borchers, C. Thurber

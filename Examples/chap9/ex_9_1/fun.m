@@ -1,6 +1,6 @@
-% Computes the differences between forward model prediction and data,
-% normalized by the standard deviation for the slug test Example 9.1.
-% from Parameter Estimation and Inverse Problems, 3rd edition, 2018
+% Example 9.1
+% Computes the weighted residual for the model p
+% Parameter Estimation and Inverse Problems, 3rd edition, 2018
 % by R. Aster, B. Borchers, C. Thurber
 %
 % fvec=fun(p)

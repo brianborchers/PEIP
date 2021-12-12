@@ -1,3 +1,4 @@
+% Example 7.4
 % This is the kernel function for the Skaggs and Kabala problem
 % from Parameter Estimation and Inverse Problems, 3rd edition, 2018
 % by R. Aster, B. Borchers, C. Thurber

@@ -1,4 +1,5 @@
-% Example 9.2. Computes the normalized jacobian of rawfunc.m
+% Example 9.2.
+% Computes the weighted jacobian of rawfunc.m
 % from Parameter Estimation and Inverse Problems, 3rd edition, 2018
 % by R. Aster, B. Borchers, C. Thurber
 %

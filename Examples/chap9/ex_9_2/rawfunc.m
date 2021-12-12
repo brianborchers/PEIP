@@ -1,4 +1,5 @@
-% Example 9.2 forward problem
+% Example 9.2
+% Forward problem computation
 % from Parameter Estimation and Inverse Problems, 3rd edition, 2018
 % by R. Aster, B. Borchers, C. Thurber
 %
