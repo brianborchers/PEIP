@@ -50,7 +50,7 @@ while (iter <= maxiter)
     newx = (A' * R * A) \ (A' * R * b);
     
     %check for convergence
-    if (norm(newx-x) / (1 + norm(x)) < tolx)
+    if (norm(newx-x) / (1 + norm(newx)) < tolx)
         x = newx;
         return;
     else
